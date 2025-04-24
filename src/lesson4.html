@@ -10,7 +10,46 @@
 
 <body>
 
-  <nav></nav>
+  <nav class="">
+    <div class="flex justify-between items-center p-[40px] mb-[100px]">
+      <img src="./img/Logo (5).png">
+      <div class="hidden md:inline-flex gap-[50px]">
+        <div class="border-r-[2px] pr-[20px]">
+          <p class="">ВРЕМЯ РАБОТЫ</p>
+          <h1 class="">Пн-Вс 9:00-21:00</h1>
+        </div>
+        <div class="border-r-[2px] pr-[20px]">
+          <p class="">EMAIL</p>
+          <h1 class="">info@it-komfort.ru</h1>
+        </div>
+        <div class="border-r-[2px] pr-[20px]">
+          <p class="">МЕССЕНДЖЕРЫ</p>
+          <h1 class="">+79128810296</h1>
+        </div>
+        <div class="">
+          <p class="">ТЕЛЕФОН</p>
+          <h1 class="">+7(342)243-02-96</h1>
+        </div>
+      </div>
+      <select class="block md:hidden"></select>
+    </div>
+    <div class="top flex flex-col md:flex-row gap-[100px] p-[40px] items-center mb-[50px]">
+      <div class="">
+        <h1 class="text-[40px] md:text-[56px] pb-[30px]">Поможем <br>
+          навести порядок <br>
+          в компании</h1>
+        <p class="text-[25px] md:text-[36px] pb-[50px]">Внедрение CRM за 2 недели. <br>
+          Работаем по всей России.</p>
+        <div class="flex flex-col md:flex-row gap-[20px] pb-[20px]">
+          <input class="w-[330px] h-[40px] border-[2px] pl-[20px]" type="text" placeholder="Название компании">
+          <input class="w-[330px] h-[40px] border-[2px] pl-[20px]" type="text" placeholder="Телефон*">
+        </div>
+        <button class="w-[330px] h-[40px] md:w-[680px] md:h-[40px] bg-[#3D68E1] text-white mb-[10px]">ЗАКАЗАТЬ БЕСПЛАТНУЮ КОНСУЛЬТАЦИЮ</button>
+        <p class="text-center">Мы никогда не передаём Ваши данные третьим лицам</p>
+      </div>
+      <img src="./img/image 15.png">
+    </div>
+  </nav>
 
 </body>
 <!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->
